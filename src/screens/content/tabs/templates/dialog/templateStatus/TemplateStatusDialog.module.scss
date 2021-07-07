@@ -1,0 +1,37 @@
+.dialogBoxContainer{
+  width: 514px;
+  height: 232px;
+}
+.dialogBoxContainer{
+  padding: 24px 57px;
+  text-align: center;
+}
+.statusBadge{
+  margin: auto;
+}
+.statusText{
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2e3537;
+  margin: 16px 0;
+}
+.statusActions{
+  button{
+    width: 87px;
+    height: 40px;
+    color: #2E3537;
+    font-size: 14px;
+    border-radius: 20px;
+    border: none;
+    margin: 0px 16px;
+    cursor: pointer;
+  }
+  .statusYesBtn{
+    background: #5EBE84;
+  }
+}

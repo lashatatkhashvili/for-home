@@ -1,0 +1,89 @@
+.carouselWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  .carouselImage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .leftButtonWrapper,
+  .rightButtonWrapper
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      background-color: rgba(#000000, 0.42);
+      border-radius: 50%;
+      cursor: pointer;
+      margin-bottom: 50px;
+
+      &:hover > .arrow {
+        color: #fff;
+      }
+
+      .arrow {
+        color: rgba(255,255,255,.5);
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+
+  .leftButtonWrapper {
+    left: 10px;
+  }
+
+  .rightButtonWrapper {
+    right: 10px;
+  }
+
+}
+
+.singleImage .alice-carousel__dots {
+  display: none;
+}
+
+.alice-carousel,
+.alice-carousel > div,
+.alice-carousel__wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.alice-carousel__dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin: 0;
+  left: 0;
+  right: 0;
+}
+
+.alice-carousel__dots-item:not(.__active) {
+  width: 5px;
+  height: 5px;
+  background-color: #ABAEAF;
+}
+
+.alice-carousel__dots-item:hover, .alice-carousel__dots-item.__active {
+  background-color: #C0E2C8;
+}
+
+.alice-carousel__dots-item:not(:last-child) {
+  margin-right: 10px;
+}

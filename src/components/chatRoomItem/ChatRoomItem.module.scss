@@ -1,0 +1,46 @@
+//.chatRoomItem {
+//  display: flex;
+//  align-items: center;
+//  padding: 8px 12px;
+//
+//  &:hover, &.active {
+//    background-color: #E6E5E0;
+//    cursor: pointer;
+//  }
+//
+//  .chatRoomItemImageWrapper {
+//    position: relative;
+//
+//    .chatRoomItemImage {
+//      width: 45px;
+//      height: 45px;
+//      border-radius: 50%;
+//      border: 2px solid #C0E2C8;
+//      display: block;
+//    }
+//
+//    .chatRoomItemUnread {
+//      background-color: #FF0000;
+//      position: absolute;
+//      top:0px;
+//      right: -3px;
+//      width: 20px;
+//      height: 20px;
+//      display: flex;
+//      justify-content: center;
+//      align-items: center;
+//      border-radius: 50%;
+//      color:white;
+//      font-size: 12px;
+//      font-weight: 700;
+//    }
+//  }
+//
+//  .chatRoomItemName {
+//    margin-left: 15px;
+//    font-size: 14px;
+//    color: #303537;
+//  }
+//
+//
+//}

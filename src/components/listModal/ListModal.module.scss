@@ -1,0 +1,24 @@
+.card {
+  width: 400px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 60px;
+}
+
+.cardBody {
+  padding: 0 20px 20px 20px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.reactionItemWrapper {
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

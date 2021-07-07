@@ -1,0 +1,39 @@
+.comment {
+  display: flex;
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .commentImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+
+  .commentDetails {
+    background: #f2f3f5;
+    border-radius: 15px;
+    padding: 10px;
+
+    .commentUserName {
+      color: #313537;
+      font-size: 15px;
+      font-weight: 700;
+      //margin-bottom: 2px;
+    }
+
+    .commentDate {
+      color: #9c9c9d;
+      font-size: 13px;
+      margin-bottom: 7px;
+    }
+
+    .commentDetail {
+      color: #474a4c;
+      font-size: 15px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.inlineInputWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & > div {
+    width: 100%;
+  }
+}
+
+.inlineLabel {
+  width: 170px;
+  font-size: 14px;
+  color: #262626;
+  margin-bottom: 10px;
+}

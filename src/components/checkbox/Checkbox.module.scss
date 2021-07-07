@@ -1,0 +1,67 @@
+.checkbox {
+  display: none;
+}
+
+.checkbox + label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox + label::before {
+  content: '';
+  background-image: url('../../assets/images/icons/radioOff.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+
+}
+.checkbox + label > span {
+  margin-left: 10px;
+}
+
+.green + label::before {
+  background-image: url('../../assets/images/icons/checkboxOff2.png');
+  width: 25px;
+  height: 25px;
+}
+
+.checkbox:checked + label::before {
+  background-image: url('../../assets/images/icons/checkBoxOn.png');
+}
+
+.green:checked + label::before {
+  background-image: url('../../assets/images/icons/checkboxOn2.png');
+}
+
+.green + label::before {
+  background-image: url('../../assets/images/icons/checkboxOff2.png');
+  width: 25px;
+  height: 25px;
+}
+
+.green:checked + label::before {
+  background-image: url('../../assets/images/icons/checkboxOn2.png');
+}
+
+.switch + label::before {
+  background-image: url('../../assets/images/icons/switchOff.svg');
+  width: 34px;
+  height: 30px;
+}
+
+.switch:checked + label::before {
+  background-image: url('../../assets/images/icons/switchOn.svg');
+}
+
+.roundedRadioAlt + label::before {
+  background-image: url('../../assets/images/icons/radioOff3.svg');
+  width: 25px;
+  height: 25px;
+}
+
+.roundedRadioAlt:checked + label::before {
+  background-image: url('../../assets/images/icons/radioOn3.svg');
+}

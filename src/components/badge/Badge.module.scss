@@ -1,0 +1,9 @@
+.badge {
+  margin-right: 15px;
+  cursor: pointer;
+
+  & > span {
+    color: black;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,60 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  font-family: 'Futura';
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, .1);
+}
+
+*:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.whiteScroll > *::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.whiteScroll:hover > *::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+*:not(.whiteScroll) {
+  scrollbar-color: rgba(0, 0, 0, .1) transparent;
+  scrollbar-width: thin;
+
+  &:hover > * {
+    scrollbar-color: rgba(0, 0, 0, .3) transparent;
+  }
+}
+
+.whiteScroll > * {
+  scrollbar-color: rgba(255, 255, 255, .1) transparent;
+  scrollbar-width: thin;
+}
+
+.whiteScroll:hover > * {
+  scrollbar-color: rgba(255, 255, 255, .3) transparent;
+}
+
+.resetLink {
+  text-decoration: initial;
+  color: initial;
+}

@@ -1,0 +1,43 @@
+.imagesPicker {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 142px;
+  border: 1px dashed #88816c;
+  background: rgba(103, 129, 137, 0.2);
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+.imageBox{
+  width: 100%;
+  position: absolute;
+  height: 144px;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 0;
+}
+.picker{
+  text-align: center;
+}
+.addImageIcon{
+  color: #8a99a9;
+  width: 32px!important;
+  height: 32px!important;
+}
+.typography{
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  color: #2e3537;
+}
+.hidden {
+  display: none;
+}

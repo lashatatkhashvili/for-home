@@ -1,0 +1,160 @@
+.contentCreationContainer{
+  width: 1080px;
+  margin: 24px auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.08);
+}
+.contentCreationContent{
+  width: calc(1080px - 144px);
+}
+.contentCreationSidebar{
+  width: 160px;
+
+  .sidebarItem{
+    background: #fef6f0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-top: 88px;
+    height: 100%;
+  }
+  ul li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #2e3537;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    cursor: pointer;
+    position: relative;
+  }
+  .active::before{
+    content: '';
+    width: 6px;
+    height: 24px;
+    background: #5ebe84;
+    position: absolute;
+    left: 0;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+}
+
+
+.tabContentHeader {
+  height: 88px;
+  padding: 24px;
+  border-bottom: 1px solid #eaebeb;
+  h2 {
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    color: #2e3537;
+  }
+}
+.newTemplateBox{
+  justify-content: flex-end;
+  align-items: center;
+
+  button {
+    background: #5cb895!important;
+    width: 161px;
+    height: 40px!important;
+    border-radius: 8px!important;
+    margin-left: 24px;
+  }
+}
+
+
+.tableRow{
+  height: 55px;
+  border-bottom: 1px solid rgba(46, 53, 55,.2);
+  padding: 7.5px 0;
+  transition: 0.4s;
+  position: relative;
+  &:hover{
+    background: rgba(248, 208, 182, 0.4);
+  }
+  &:hover .deleteDots{
+    opacity: 1;
+  }
+  td {
+    padding: 0px 24px!important;
+  }
+  .deleteDots{
+    position: absolute;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    right: 7px;
+    opacity: 0;
+    transition: 0.4s;
+     svg {
+       cursor: pointer;
+     }
+  }
+  .paddingR{
+    padding-right: 40px!important;
+  }
+}
+.headerRow {
+  height: 67px;
+  border-bottom: 2px solid #aedec1;
+}
+.hearderCell{
+  cursor: pointer;
+}
+.tableBody{
+  padding: 0px 24px;
+  width: 100%;
+}
+
+.stateBadgeLive{
+  width: 54px;
+  border-radius: 12px;
+  padding: 1.5px 12.52px;
+  background: #f8d0b6;
+  cursor: pointer;
+}
+.stateBadgeDraft{
+  width: 54px;
+  border-radius: 12px;
+  padding: 1.5px 12.52px;
+  background: #eaebeb;
+  cursor: pointer;
+}
+.cellType{
+  .cellImage{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 4px auto;
+  }
+  color : #678189;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.paddingL{
+  overflow-wrap: anywhere;
+}
+.input{
+  margin-right: 24px!important;
+  width: 100%;
+  input {
+    fieldset {
+      border-color: rgba(46, 53, 55, 0.2);
+    }
+  }
+}
+
+

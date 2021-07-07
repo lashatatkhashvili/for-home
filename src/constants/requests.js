@@ -1,0 +1,1 @@
+export const DOWNLOAD_COMPANY_FILE = '/company/file/:fileId';

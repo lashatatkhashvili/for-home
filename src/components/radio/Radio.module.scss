@@ -1,0 +1,52 @@
+.radio {
+  display: none;
+}
+
+.radio + label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.radio + label::before {
+  content: '';
+  background-image: url('../../assets/images/icons/radioOff.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: block;
+  flex-shrink: 0;
+}
+
+.radio + label > span {
+  padding-left: 10px;
+}
+
+.radio:checked + label::before {
+  background-image: url('../../assets/images/icons/radioOn.png');
+}
+
+.roundedRadio + label::before {
+  background-image: url('../../assets/images/icons/radioOff2.svg');
+  width: 25px;
+  height: 25px;
+}
+
+.roundedRadio:checked + label::before {
+  background-image: url('../../assets/images/icons/radioOn2.svg');
+}
+
+.roundedRadio + label > span {
+  padding-left: 15px;
+}
+
+.roundedRadioAlt + label::before {
+  background-image: url('../../assets/images/icons/radioOff3.svg');
+  width: 25px;
+  height: 25px;
+}
+
+.roundedRadioAlt:checked + label::before {
+  background-image: url('../../assets/images/icons/radioOn3.svg');
+}

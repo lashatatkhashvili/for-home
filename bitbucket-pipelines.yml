@@ -1,0 +1,21 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: node:10.15.3
+
+pipelines:
+  branches:
+    release/development:
+      - step:
+          name: Deploy to Development
+          deployment: staging
+          script:
+            - ssh $USERNAME@$SERVER "cd /var/www/wiv/development/content && git fetch --all && git checkout --force 'release/development' && git pull && npm install && node --max_old_space_size=4096 /usr/bin/npm run build:development"
+    release/production:
+      - step:
+          name: Deploy to Production
+          deployment: production
+          script:
+            - ssh $USERNAME@$SERVER "cd /var/www/wiv/production/content && git fetch --all && git checkout --force 'release/production' && git pull && npm install && node --max_old_space_size=4096 /usr/bin/npm run build"

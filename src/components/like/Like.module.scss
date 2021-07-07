@@ -1,0 +1,27 @@
+.likeWrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.like {
+  font-size: 17px;
+  color: #545859;
+  margin-left: 6px;
+  align-self: flex-end;
+}
+
+.notliked {
+  background: url('../../assets/images/icons/unSelectedLike.png') no-repeat;
+  background-size: 100% 100%;
+  width: 23px;
+  height: 23px;
+}
+
+.liked {
+  @extend .notliked;
+  background: url('../../assets/images/icons/selectedLike.png') no-repeat;
+  background-size: 100% 100%;
+  width: 23px;
+  height: 23px;
+}

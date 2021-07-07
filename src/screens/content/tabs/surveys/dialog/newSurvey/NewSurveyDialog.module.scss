@@ -1,0 +1,229 @@
+.dialogBoxContainer{
+  max-width: 1056px;
+  width: 1056px;
+}
+.dialogBox{
+  max-width: 1056px;
+  width: 100%;
+}
+.dialogBoxHeader{
+  height: 88px;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  h3{
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    color: #2e3537;
+  };
+  .closeIcon {
+    width: 24px;
+    height: 24px;
+    right: 24px;
+    top: 32px;
+    position: absolute;
+    cursor: pointer;
+  }
+}
+
+.dialogBoxContent{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.dialogContainerLeftSide{
+  padding: 24px;
+}
+.dialogContainerRightSide{
+  border-left : 1px solid rgba(0, 0, 0, 0.08);
+  padding: 24px;
+}
+.contentBox{
+  width: 600px;
+  margin: 24px auto;
+  overflow: hidden;
+  border-radius: 8px;
+  border: solid 1px rgba(46, 53, 55, 0.2);
+  padding: 24px;
+}
+
+.dialogBoxFooter{
+  padding: 24px;
+}
+
+.imagesContainer{
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-bottom: 8px;
+  &::-webkit-scrollbar {
+    width: 1px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,.06);
+  }
+}
+.imageBox{
+  display: flex;
+  width: 220px;
+  height: 144px;
+  border-radius: 8px;
+  margin-left: 8px;
+  img {
+    width: 220px;
+    border-radius: 8px;
+  }
+}
+
+.addNewImage{
+  width: 100%;
+  background: rgba(103, 129, 137, 0.2);
+  border : 1px dashed #88816c;
+  height: 144px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.addNewImageMini {
+  width: 220px;
+  height: 144px;
+  border-radius: 8px;
+  margin-left: 8px;
+  background: rgba(103, 129, 137, 0.2);
+  border : 1px dashed #88816c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.uploadInput{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.addNewImageContent{
+  text-align: center;
+  cursor: pointer;
+  h6{
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    color: #2e3537;
+  }
+  .addNewIcon{
+    width: 32px;
+    height: 32px;
+    fill: #969a9b;
+  }
+}
+.textRight{
+  text-align: right;
+}
+.authorBox{
+  height: 40px;
+  margin: 0 0 16px 0;
+  .adminAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    background: #678189;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+      font-size: 24px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+    }
+  }
+  .authorInfo{
+    p {
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      color: #2e3537;
+    }
+    span {
+      color: #c4c4c4;
+      font-size: 12px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+    }
+  }
+  .authorDots {
+    fill: #9fa2a3;
+  }
+}
+
+.contentFooter{
+  margin-top: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-left: none;
+  border-right: none;
+  height: 32px;
+  padding: 8px 0;
+  display: flex;
+  .greyRounded {
+    width: 16px;
+    height: 16px;
+    background: #c2cccf;
+    border-radius: 4px;
+    margin-right: 32px;
+  }
+}
+
+.saveButton {
+  border-radius: 8px!important;
+  &:last-child{
+    background: #5cb895!important;
+  }
+}
+.submitButton{
+  border-radius: 8px!important;
+  width: 120px!important;
+  &:last-child{
+    background: #5cb895!important;
+  }
+}
+.input{
+  margin-top: 24px!important;
+  width: 100%;
+  input {
+    fieldset {
+      border-color: rgba(46, 53, 55, 0.2);
+    }
+  }
+}
+.textarea{
+  width: 100%;
+  height: 144px;
+  resize: none;
+  border-radius: 8px;
+  padding: 16px;
+  &:focus{
+    outline: none;
+  }
+}

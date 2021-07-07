@@ -1,0 +1,77 @@
+@import '../../styles/colors';
+
+.inputWrapper {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.input {
+  border: none;
+  outline: none;
+
+  &:disabled {
+    opacity: 0.7;
+  }
+}
+
+.loginInput {
+  @extend .input;
+  width: 100%;
+  display: block;
+  padding: 11px 7px;
+  border-bottom: 2px solid $primaryColor;
+  background: transparent;
+  color: white;
+  font-size: 22px;
+}
+
+.loginInput::placeholder {
+  color: white;
+}
+
+.searchInput {
+  @extend .loginInput;
+  width: 350px;
+  font-size: 17px;
+  padding: 7px 4px 10px;
+  margin: 0;
+  text-indent: 30px;
+  border-bottom: 1px solid rgba(255,255,255,.7);
+  background: url('../../assets/images/icons/search.png') no-repeat;
+  background-size: 17px 17px;
+  background-position: 10px 8px;
+  font-weight: 300;
+  height: 41px;
+}
+
+.standardInput {
+  @extend .input;
+  width: 100%;
+  display: block;
+  padding: 13px 15px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 300;
+  height: 40px;
+}
+
+.commentInput {
+  @extend .input;
+  background-color: #f2f2f2;
+  // background: red;
+  display: block;
+  width: 100%;
+  padding: 16px 18px;
+  border-radius: 5px;
+  margin-bottom: -15px;
+  font-size: 17px;
+}
+
+.borderedInput {
+  @extend .standardInput;
+  border: 1px solid rgba(48, 53, 55, 0.14);
+}
+
+.borderedInput:focus {
+  box-shadow: 0 0 0 2px #D1E8D7;
+}

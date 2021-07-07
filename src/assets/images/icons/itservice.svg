@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="56px" viewBox="0 0 53 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>tv copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tv-copy-2" transform="translate(1.000000, 1.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <path d="M24.402,24.71 L18.354,26.502" id="Path"></path>
+            <path d="M39.382,20.188 L27.734,23.632" id="Path"></path>
+            <path d="M35.77,15.05 L42.308,13.118" id="Path"></path>
+            <path d="M26.838,17.696 L31.64,16.268" id="Path"></path>
+            <path d="M7.938,23.282 L24.192,18.48" id="Path"></path>
+            <polyline id="Path" points="0.7 16.352 0.7 19.852 0.7 26.222 0.7 37.338"></polyline>
+            <path d="M0.7,7.882 L0.7,10.808" id="Path"></path>
+            <polyline id="Path" points="50.988 37.338 50.988 26.222 50.988 19.852 50.988 7.882"></polyline>
+            <polyline id="Path" points="7.882 44.52 11.97 44.52 22.582 44.52 33.194 44.52 43.82 44.52"></polyline>
+            <path d="M50.988,37.338 C51.0066638,39.25246 50.2601616,41.0951301 48.9142787,42.4567851 C47.5683957,43.8184401 45.7345475,44.5863589 43.82,44.59" id="Path"></path>
+            <path d="M7.882,44.59 C3.91549093,44.59 0.7,41.3745091 0.7,37.408" id="Path"></path>
+            <polyline id="Path" points="50.988 37.338 33.194 37.338 22.582 37.338 11.97 37.338 0.7 37.338"></polyline>
+            <polyline id="Path" points="43.82 0.7 33.194 0.7 22.582 0.7 11.97 0.7 7.882 0.7"></polyline>
+            <path d="M43.82,0.7 C47.7810406,0.707721341 50.988,3.92095184 50.988,7.882" id="Path"></path>
+            <path d="M3.598,2.128 C4.83598818,1.20832414 6.33982795,0.716873237 7.882,0.728" id="Path"></path>
+            <path d="M0.7,7.882 C0.694972383,6.46612601 1.11434234,5.08122986 1.904,3.906" id="Path"></path>
+            <polyline id="Path" points="7.882 44.52 11.97 44.52 22.582 44.52 33.194 44.52 43.82 44.52"></polyline>
+            <polyline id="Path" points="7.882 53.956 15.54 53.956 23.422 53.956 31.304 53.956 43.82 53.956"></polyline>
+            <polyline id="Path" points="22.26 53.956 22.26 37.338 29.442 37.338 29.442 53.956"></polyline>
+        </g>
+    </g>
+</svg>

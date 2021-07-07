@@ -1,0 +1,58 @@
+.resolvedWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .label {
+    font-size: 14px;
+    color: #303537;
+    margin-bottom: 5px;
+  }
+
+  .date {
+    font-size: 35px;
+    color: #86836D;
+  }
+
+}
+
+.timeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .time {
+    font-size: 35px;
+    color: #75897A;
+  }
+
+  .label {
+    display: flex;
+    width: 130px;
+    font-size: 10px;
+    color: #434343;
+
+    & > span {
+      width: 100%;
+      text-align: center;
+    }
+
+  }
+}
+
+.daysAgoWrapper {
+
+  .daysAgo {
+    font-size: 21px;
+    color: #303537;
+
+    .dayCount {
+      display: inline-block;
+      margin: 0 5px;
+      font-size: 35px;
+      color: #D4692D;
+    }
+
+  }
+
+}

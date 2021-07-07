@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  padding: 0 40px;
+  border-radius: 8px 8px 0 0;
+  margin-right: 15px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.active,
+  &:hover {
+    background-color: #c0e2c8;
+    color: #303537;
+  }
+}

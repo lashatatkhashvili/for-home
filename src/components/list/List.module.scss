@@ -1,0 +1,55 @@
+//.infoItemsWrapper {
+//  display: flex;
+//  flex-direction: column;
+//  height: 100%;
+//  width: 100%;
+//}
+//
+//.infoItems {
+//  background: white;
+//  padding: 5px;
+//  font-size: 14px;
+//  font-weight: 300;
+//  height: 100%;
+//  overflow: auto;
+//
+//  .infoItem {
+//    color: #434343;
+//    display: flex;
+//    justify-content: space-between;
+//    align-items: center;
+//    padding: 10px;
+//    height: 30px;
+//    margin-bottom: 3px;
+//
+//    &:last-child {
+//      margin-bottom: 0;
+//    }
+//
+//    & > span {
+//      cursor: pointer;
+//    }
+//
+//    &:hover {
+//      background-color: #e6f3e9;
+//      cursor: pointer;
+//
+//      .button {
+//        display: block;
+//      }
+//    }
+//
+//    .button {
+//      display: none;
+//      height: 15px;
+//      padding: 5px 0 5px 5px;
+//      box-sizing: content-box;
+//    }
+//  }
+//}
+//
+//.infoItemsError {
+//  color: red;
+//  font-size: 12px;
+//  margin-top: 5px;
+//}

@@ -1,0 +1,39 @@
+.authLayoutWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  background-image: url('../../assets/images/SignInBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.authLayout {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+}
+.authLayoutBackdrop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.authLayoutContent {
+  max-width: 380px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  max-height: 210px;
+  width: 100%;
+}

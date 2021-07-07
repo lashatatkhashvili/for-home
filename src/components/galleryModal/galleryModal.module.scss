@@ -1,0 +1,81 @@
+.dialogContent{
+  min-width: 424px!important;
+  padding: 0!important;
+}
+.dialogHeader{
+  padding: 24px 24px 20px;
+  border-bottom: 1px solid #88816c;
+  .dialogTitle{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    color: #2e3537;
+  }
+}
+.dialogForm{
+  padding: 24px;
+}
+.box{
+  width: 100%;
+  button {
+    background: #5cb895!important;
+    width: 117px!important;
+    height: 40px!important;
+    border-radius: 8px!important;
+    cursor: pointer;
+    color: #ffffff!important;
+  }
+}
+.textRight {
+  text-align: right;
+}
+.input{
+  width: 100%;
+  input {
+    fieldset {
+      border-color: rgba(46, 53, 55, 0.2);
+    }
+  }
+}
+.listWrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.listItem {
+  margin-top : 7px;
+  justify-content : space-between;
+  align-items : center;
+  width: auto!important;
+  margin-right: 7px;
+}
+.listItemBox{
+  background : #faf5f1;
+  display: flex;
+  justify-content : space-around;
+  border-radius : 50px;
+};
+.listItemText{
+  padding-right : 15px;
+  padding-left : 10px;
+};
+.hiddenClose{
+  border-radius : 50%;
+  background : #f2e7df;
+  display: flex;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  justify-content: center;
+  cursor: pointer;
+};
+.imageBox{
+  width: 100%;
+  height: 144px;
+  border: 1px dashed #88816c;
+  border-radius: 8px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}

@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+
+  .stepWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+    &.active {
+
+      .stepNumber {
+        background-color: #C6E5CD;
+      }
+
+      .stepTitle {
+        font-weight: bold;
+      }
+    }
+
+    .stepNumber {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border: 2px solid #C6E5CD;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .stepTitle {
+      font-size: 17px;
+      color: #303537;
+    }
+
+    .stepArrowRight {
+      margin: 0 20px;
+      font-size: 13px;
+      transform: rotate(-90deg);
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.chatForm {
+  display: flex;
+  align-items: center;
+  //background: red;
+  width: 100%;
+  padding: 10px 20px;
+
+  .hidden {
+    display: none;
+  }
+
+  .attachIcon {
+    margin-right: 15px;
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .sendIcon {
+    margin-left: 15px;
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .chatFormMessage {
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .chatFormTextarea {
+    padding-left: 0;
+    height: 40px;
+  }
+}

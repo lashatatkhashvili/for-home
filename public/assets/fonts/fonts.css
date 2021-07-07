@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('./FuturaPTLight.eot');
+    src: local('☺'), url('./FuturaPTLight.woff') format('woff'), url('./FuturaPTLight.ttf') format('truetype'), url('./FuturaPTLight.svg') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./FuturaPTBook.eot');
+    src: local('☺'), url('./FuturaPTBook.woff') format('woff'), url('./FuturaPTBook.ttf') format('truetype'), url('./FuturaPTBook.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./FuturaPTBook.eot');
+    src: local('☺'), url('./FuturaPTBook.woff') format('woff'), url('./FuturaPTBook.ttf') format('truetype'), url('./FuturaPTBook.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./FuturaPTMedium.eot');
+    src: local('☺'), url('./FuturaPTMedium.woff') format('woff'), url('./FuturaPTMedium.ttf') format('truetype'), url('./FuturaPTMedium.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./FuturaPTDemi.otf');
+    src: local('☺'), url('./FuturaPTDemi.woff') format('woff'), url('./FuturaPTDemi.ttf') format('truetype'), url('./FuturaPTDemi.svg') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./FuturaPTBold.eot');
+    src: local('☺'), url('./FuturaPTBold.woff') format('woff'), url('./FuturaPTBold.ttf') format('truetype'), url('./FuturaPTBold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+body {font-family : Futura!important ; font-weight : 300;font-size: 14px;color:#2e3537;}

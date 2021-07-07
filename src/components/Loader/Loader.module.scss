@@ -1,0 +1,15 @@
+.loader {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DarkLoader {
+  background: rgba(255,255,255, 0.5);
+}
+
+.LightLoader {
+  background: rgba(0,0,0,0.4);
+}

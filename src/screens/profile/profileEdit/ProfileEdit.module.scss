@@ -1,0 +1,39 @@
+.profileEditContainer{
+  width: 80%;
+  margin: 24px auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.08);
+}
+.profileEditHeader{
+  padding: 24px;
+  border-bottom: 1px solid #eaebeb;
+}
+.profileFormsContainer{
+  max-width: 550px;
+  margin: auto;
+  padding: 24px;
+}
+.saveButton{
+  background-color: #5ebe84!important;
+}
+.buttonContainer {
+  text-align: center;
+}
+.passwordButton {
+  border : 1px solid rgba(0, 0, 0, 0.23) !important;
+}
+.input{
+  //padding: 14.5px 14px!important;
+}
+.profileImage{
+  width: 120px!important;
+  height: 120px!important;
+  border-radius: 50% !important;
+}
+.imageContainer {
+  margin-bottom: 25px;
+}
+.inputContainer{
+  padding-left: 15px;
+}

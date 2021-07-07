@@ -1,0 +1,8 @@
+export const TEMPLATES = 'TEMPLATES';
+export const ARTICLES = 'ARTICLES';
+export const ANNOUCEMENTS = 'ANNOUCEMENTS';
+export const UPSALES = 'UPSALES';
+export const SURVEYS = 'SURVEYS';
+export const EMAIL_TEMPLATES = 'EMAIL_TEMPLATES';
+export const POST_ANNOUNCEMENTS = 'POST_ANNOUNCEMENTS';
+export const SPECIAL_DAYS = 'SPECIAL_DAYS';
